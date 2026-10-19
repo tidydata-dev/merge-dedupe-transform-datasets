@@ -33,7 +33,8 @@ run = client.actor("tidydata/merge-dedupe-datasets").call(run_input={
     "exportFormats": ["csv", "xlsx"],
 })
 store = client.key_value_store(run["defaultKeyValueStoreId"])
-open("merged.csv", "wb").write(store.get_record("merged.csv")["value"])
+csv_data = store.get_record("merged.csv")["value"]
+open("merged.csv", "wb").write(csv_data if isinstance(csv_data, bytes) else csv_data.encode("utf-8"))
 print("rows:", client.dataset(run["defaultDatasetId"]).get()["itemCount"])
 ```
 
