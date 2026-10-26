@@ -1,6 +1,6 @@
 # Merge, deduplicate & transform datasets — examples
 
-Recipes for the hosted **[Merge, Deduplicate & Transform Datasets](https://apify.com/tidydata/merge-dedupe-datasets)** Actor on Apify: combine the results of your scrapers (or CSV, Excel, JSON files and Google Sheets), **remove or merge duplicates**, **filter**, **sort**, add **computed columns**, keep **only new rows since the last run**, and export **CSV / Excel / JSON**. **$0.25 per 1,000 output rows**; duplicates and filtered rows are free.
+Recipes for the hosted **[Merge, Deduplicate & Transform Datasets](https://apify.com/tidydata/merge-dedupe-datasets?fpr=wtg6qt)** Actor on Apify: combine the results of your scrapers (or CSV, Excel, JSON files and Google Sheets), **remove or merge duplicates**, **filter**, **sort**, add **computed columns**, keep **only new rows since the last run**, and export **CSV / Excel / JSON**. **$0.25 per 1,000 output rows**; duplicates and filtered rows are free.
 
 ## Recipes
 
@@ -42,7 +42,10 @@ More: [`examples/only_new_items.py`](examples/only_new_items.py) · [`examples/n
 
 ## Related
 
-- [Phone Number Validator](https://apify.com/tidydata/phone-number-validator) and [Email Validator](https://apify.com/tidydata/email-validator) — clean contact columns.
-- [Google Sheets Export & Import](https://apify.com/tidydata/google-sheets-export-import) — append results to a sheet without duplicates.
+- [Phone Number Validator](https://apify.com/tidydata/phone-number-validator?fpr=wtg6qt) and [Email Validator](https://apify.com/tidydata/email-validator?fpr=wtg6qt) — clean contact columns.
+- [Google Sheets Export & Import](https://apify.com/tidydata/google-sheets-export-import?fpr=wtg6qt) — append results to a sheet without duplicates.
 
 Examples are MIT-licensed.
+
+---
+<sub>Links to apify.com include our affiliate ID: if you start a paid Apify plan through them, Apify pays TidyData a commission at no extra cost to you.</sub>
